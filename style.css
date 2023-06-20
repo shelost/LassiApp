@@ -1,0 +1,40 @@
+* {
+  font-family: "Inter", "Manrope", sans-serif;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.slide img {
+  border-radius: 30px;
+  width: 150px;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border: 8px solid black;
+}
+.slide h1 {
+  letter-spacing: -2px;
+  font-weight: 900;
+  margin: 0;
+  font-size: 52px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.slide h1 span {
+  color: #FF005C;
+}
+.slide h2 {
+  letter-spacing: -1px;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=style.css.map */
